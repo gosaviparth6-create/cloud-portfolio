@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cloud & DevOps Engineer Portfolio | Parth Gosavi</title>
+  <title>Cloud & DevOps Engineer Portfolio | Your CV / Resume</title>
   <style>
     :root {
       --bg: #f8fafc;
@@ -268,54 +268,6 @@
       line-height: 1.5;
     }
 
-    /* Cloud Concepts / Skills Section */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .skill-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.5rem;
-      box-shadow: var(--shadow-sm);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .skill-card-header {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .skill-icon-wrapper {
-      width: 38px;
-      height: 38px;
-      border-radius: 8px;
-      background: var(--primary-light);
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .skill-icon {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-    }
-
-    .skill-card h3 {
-      font-size: 1.1rem;
-      color: var(--text);
-    }
-
     /* Badge Tags */
     .badges {
       display: flex;
@@ -435,7 +387,7 @@
       margin-top: 0.25rem;
     }
 
-    /* Contact Form */
+    /* Contact Section */
     .contact-card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -587,8 +539,6 @@
         DevOps.IO
       </a>
       <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills & Cloud</a>
         <a href="#projects">Projects</a>
         <a href="#resume">Resume</a>
         <a href="#contact" class="nav-btn">Contact Me</a>
@@ -602,7 +552,7 @@
       ⚡ Cloud Architecture & Infrastructure Automation
     </div>
     <h1>Cloud & <span>DevOps Engineer</span></h1>
-    <p>Specializing in Cloud Infrastructure, CI/CD Pipelines, Infrastructure as Code, Container Orchestration, and Secure Linux Systems.</p>
+    <p>Specializing in Infrastructure, CI/CD Pipelines, and Linux Systems.</p>
     <div class="hero-buttons">
       <a href="#projects" class="btn btn-primary">
         View Projects
@@ -616,141 +566,7 @@
     </div>
   </section>
 
-  <!-- About Section -->
   <main>
-    <section class="container" id="about">
-      <div class="section-header">
-        <h2 class="section-title">About Me</h2>
-        <p class="section-subtitle">Building resilient, automated, and secure cloud environments.</p>
-      </div>
-      <div class="card">
-        <p>
-          I am a passionate Cloud & DevOps Engineer specializing in designing and deploying scalable multi-cloud infrastructure across AWS, Azure, and GCP. My experience encompasses full-lifecycle infrastructure automation using Infrastructure as Code (Terraform), container orchestration (Kubernetes & Docker), continuous integration and delivery (GitHub Actions), and secure Linux system administration.
-        </p>
-      </div>
-    </section>
-
-    <!-- Cloud Computing Concepts & Skills -->
-    <section class="container" id="skills">
-      <div class="section-header">
-        <h2 class="section-title">Core Cloud & DevOps Competencies</h2>
-        <p class="section-subtitle">Key engineering pillars and technology stack.</p>
-      </div>
-
-      <div class="skills-grid">
-
-        <!-- Cloud Architecture -->
-        <div class="skill-card">
-          <div>
-            <div class="skill-card-header">
-              <div class="skill-icon-wrapper">
-                <svg class="skill-icon" viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg>
-              </div>
-              <h3>Cloud Architecture</h3>
-            </div>
-            <p>Designing high-availability, fault-tolerant architectures on major cloud providers.</p>
-          </div>
-          <div class="badges">
-            <span class="badge badge-primary">AWS (S3, EC2, VPC, RDS)</span>
-            <span class="badge">Azure</span>
-            <span class="badge">GCP</span>
-          </div>
-        </div>
-
-        <!-- IaC -->
-        <div class="skill-card">
-          <div>
-            <div class="skill-card-header">
-              <div class="skill-icon-wrapper">
-                <svg class="skill-icon" viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
-              </div>
-              <h3>Infrastructure as Code</h3>
-            </div>
-            <p>Automating reproducible infrastructure provisioning and configuration management.</p>
-          </div>
-          <div class="badges">
-            <span class="badge badge-primary">Terraform</span>
-            <span class="badge">CloudFormation</span>
-            <span class="badge">Ansible</span>
-          </div>
-        </div>
-
-        <!-- Containers & K8s -->
-        <div class="skill-card">
-          <div>
-            <div class="skill-card-header">
-              <div class="skill-icon-wrapper">
-                <svg class="skill-icon" viewBox="0 0 24 24"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg>
-              </div>
-              <h3>Containers & Kubernetes</h3>
-            </div>
-            <p>Packaging applications into microservices and managing cluster workloads at scale.</p>
-          </div>
-          <div class="badges">
-            <span class="badge badge-primary">Docker</span>
-            <span class="badge badge-primary">Kubernetes (EKS/GKE)</span>
-            <span class="badge">Helm</span>
-          </div>
-        </div>
-
-        <!-- CI/CD -->
-        <div class="skill-card">
-          <div>
-            <div class="skill-card-header">
-              <div class="skill-icon-wrapper">
-                <svg class="skill-icon" viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
-              </div>
-              <h3>CI/CD Pipelines</h3>
-            </div>
-            <p>Constructing continuous integration & automated zero-downtime deployment channels.</p>
-          </div>
-          <div class="badges">
-            <span class="badge badge-primary">GitHub Actions</span>
-            <span class="badge">GitLab CI</span>
-            <span class="badge">Jenkins</span>
-          </div>
-        </div>
-
-        <!-- Serverless & Microservices -->
-        <div class="skill-card">
-          <div>
-            <div class="skill-card-header">
-              <div class="skill-icon-wrapper">
-                <svg class="skill-icon" viewBox="0 0 24 24"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
-              </div>
-              <h3>Serverless Computing</h3>
-            </div>
-            <p>Developing event-driven, cost-effective serverless backend infrastructure.</p>
-          </div>
-          <div class="badges">
-            <span class="badge badge-primary">AWS Lambda</span>
-            <span class="badge">API Gateway</span>
-            <span class="badge">Cloud Run</span>
-          </div>
-        </div>
-
-        <!-- Monitoring & Security -->
-        <div class="skill-card">
-          <div>
-            <div class="skill-card-header">
-              <div class="skill-icon-wrapper">
-                <svg class="skill-icon" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-5.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8s0 0 0 0z"/></svg>
-              </div>
-              <h3>Security & Observability</h3>
-            </div>
-            <p>Implementing Zero-Trust IAM policies, log aggregation, and metric alerting.</p>
-          </div>
-          <div class="badges">
-            <span class="badge badge-primary">AWS IAM</span>
-            <span class="badge">Prometheus</span>
-            <span class="badge">Grafana</span>
-            <span class="badge">CloudWatch</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
     <!-- Projects Section -->
     <section class="container" id="projects">
       <div class="section-header">
@@ -778,16 +594,6 @@
             <span class="badge">SSH Security</span>
           </div>
         </div>
-
-        <div class="card">
-          <h3>Kubernetes Multi-Node Deployment</h3>
-          <p>Automated deployment of containerized web microservices to an Amazon EKS cluster managed via Terraform and Helm charts.</p>
-          <div class="badges">
-            <span class="badge badge-primary">Kubernetes</span>
-            <span class="badge badge-primary">Terraform</span>
-            <span class="badge">Docker</span>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -795,7 +601,7 @@
     <section class="container" id="resume">
       <div class="section-header">
         <h2 class="section-title">Resume & Documents</h2>
-        <p class="section-subtitle">Download my official CV or submit candidate documentation.</p>
+        <p class="section-subtitle">Download official CV / Resume or submit candidate documentation.</p>
       </div>
 
       <div class="resume-grid">
@@ -807,8 +613,8 @@
                 <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
               </svg>
               <div class="resume-meta">
-                <h4>Parth Gosavi - CV / Resume</h4>
-                <p>Format: PDF • Updated Recently</p>
+                <h4>Your CV / Resume</h4>
+                <p>Format: PDF • Official Document</p>
                 <div class="badges" style="margin-top: 0.5rem;">
                   <span class="badge badge-primary">Verified PDF</span>
                   <span class="badge">Cloud & DevOps</span>
@@ -820,13 +626,13 @@
             </p>
           </div>
           <div class="resume-actions">
-            <a href="Parth_Gosavi_Resume.pdf" class="btn btn-primary btn-sm" download>
+            <a href="Your_Resume.pdf" class="btn btn-primary btn-sm" download>
               <svg class="btn-icon" viewBox="0 0 24 24">
                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
               </svg>
               Download CV (PDF)
             </a>
-            <a href="Parth_Gosavi_Resume.pdf" class="btn btn-secondary btn-sm" target="_blank">
+            <a href="Your_Resume.pdf" class="btn btn-secondary btn-sm" target="_blank">
               View PDF
             </a>
           </div>
@@ -868,7 +674,7 @@
 
       <div class="contact-card">
         <div class="recipient-badge">
-          Sending message to: <span>Parth Gosavi</span>
+          Sending message to: <span>Your Name</span>
         </div>
 
         <form action="https://formspree.io/f/maenbdjw" method="POST" enctype="multipart/form-data">
@@ -889,7 +695,7 @@
 
           <div class="form-group">
             <label for="message">Your Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Hello Parth, I'd like to discuss a Cloud Architect position..." required></textarea>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary">Send Message</button>
@@ -900,7 +706,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Parth Gosavi • Cloud & DevOps Engineer Portfolio. Built with clean HTML & CSS.</p>
+    <p>&copy; 2026 Your Name • Cloud & DevOps Engineer Portfolio. Built with clean HTML & CSS.</p>
   </footer>
 
 </body>
